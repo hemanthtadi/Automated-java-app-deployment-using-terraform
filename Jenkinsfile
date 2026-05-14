@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/hemanthtadi/Automated-java-app-deployment-using-terraform.git'
+                git branch: 'main', url: 'https://github.com/hemanthtadi/Automated-java-app-deployment-using-terraform.git'
             }
         }
 
