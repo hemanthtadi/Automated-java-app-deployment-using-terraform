@@ -1,1 +1,4 @@
-
+@GetMapping("/")
+public String home() {
+return "Hello from DevOps CI/CD Pipeline "
+}
